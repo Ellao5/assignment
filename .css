@@ -1,0 +1,111 @@
+:root {
+    --background-color: #fff;
+    --primary-color: #E9F93C;
+    --secondary-color: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 1.2;
+    background-color: var(--background-color);
+}
+
+.main-nav nav ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin-left: 650px;
+  margin-top: 50px;
+  justify-content: flex-end;
+  padding: 10px 30px;
+  background-color: var(--secondary-color);
+  border-radius: 40px;
+  text-align: right;
+  width: 50%;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: var(--background-color);
+}
+
+/* Hero Section */
+.Hero-section {
+  text-align: left;
+  padding: 40px 20px;
+  font-size: 23px;
+  margin-top: -10px;
+}
+
+.Hero-section .Image-container {
+  flex: 2;
+  max-width: 90%;
+  border-radius: 10px;
+  margin-left: 720px;
+  display: block;
+  padding-left: 24px;
+  padding-top: 10px;
+  padding-bottom: 90px;
+  background-color: var(--primary-color);
+}
+
+.Hero-section .Image-container .header {
+ font-size: 30px;
+}
+.Hero-section .Image-container img{
+  width: 300px;
+  height: 250px;
+  border-radius: 16px;
+  position: absolute;
+  margin-left: 240px;
+  margin-bottom: 240px;
+}
+.Hero-section .Image-container .desc{
+  position: relative;
+  font-size: 25px;
+  margin-top: 150px;
+}
+
+
+
+.Second-section h3 {
+  font-size: 30px;
+  margin-left: 25px;
+}
+
+.Second-section nav ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin-right: 650px;
+  margin-top: 10px;
+  justify-content: flex-start;
+  padding: 10px 30px;
+  text-align: right;
+  width: 50%;
+}
+
+.Second-nav nav ul li a {
+  color: var(--secondary-color);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.grid-container img {
+  width: 400px;
+  height: 450px;
+  border-radius:16px;
+}
+
+
